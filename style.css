@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.4rem;
+    color: #808080;
+}
+
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 2.5rem 0;
+}
+
+/* Header */
+.intro {
+    width: 1190px;
+    height: 560px;
+    display: flex;
+    
+    background: url("/home/stage/my_resume/images/Resume-pdf.jpg") center no-repeat;
+    background-size: cover;
+}
+
+
+
+    
