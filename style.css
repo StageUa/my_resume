@@ -41,7 +41,7 @@ p {
 
 .header {
     display: flex;  
-    margin: 1rem 0;  
+    padding-bottom: 1rem;  
     
     flex-direction: column;
     align-items: center;
@@ -94,9 +94,104 @@ p {
     background-repeat: repeat;    
 
     background-clip: text;
-    color: transparent;
-    
-
-    
+    color: transparent;    
 }
 
+/* About */
+
+.about__title {
+    margin-bottom: 1rem;
+
+    font-size: 1.5rem;    
+    font-weight: 400;
+    font-family: 'Playfair Display SC';
+
+    background-color: #b69b67;
+
+    background: linear-gradient(50deg, rgba(125,116,97,1) 20%, rgba(182,155,103,1) 47%, rgba(108,103,93,1) 88%);
+
+    background-size: 100%;
+    background-repeat: repeat;
+
+    background-clip: text;
+    color: transparent;
+    
+    text-align: center;
+}
+
+.about__subtitle {    
+    padding: .5rem 1rem;
+
+    font-size: 2rem;    
+    font-weight: 300;
+    font-family: "Ubuntu";
+
+    background-color: #b69b67;
+
+    background: linear-gradient(50deg, rgba(125,116,97,1) 20%, rgba(182,155,103,1) 47%, rgba(108,103,93,1) 88%);
+
+    background-size: 100%;
+    background-repeat: repeat;
+
+    background-clip: text;
+    color: transparent;
+
+} 
+
+.about__skills {
+    display: block;
+    margin: 0;
+    padding: 1rem;    
+}
+
+.about__ckills-item {
+    padding: 1rem 0;
+
+    font-size: 1.2rem;
+    line-height: 1.2;
+    font-family: "Ubuntu";
+    text-transform: uppercase;
+    color: #b4b4b4;    
+    list-style: none;
+}
+
+.about {
+    display: flex;
+}      
+
+.about__left {
+    width: 40%;
+    margin: 1rem;
+}
+
+.about__line {
+    display: block;
+    width: 9rem;
+    border: 1px solid #b69b67;
+
+    opacity: .5;
+}
+
+.about__right {
+    width: 60%;
+    margin: 1rem;
+    margin-left: 1rem;
+}
+
+.about__text {
+    margin: 0;    
+    padding: .5rem;
+    
+    font-size: 1.2rem;
+    line-height: 1.1;    
+    color: #b4b4b4;  
+    font-family: "Ubuntu"; 
+
+}
+
+.about__img {
+    padding: .5rem;
+    align-items: center;
+    overflow: hidden;
+    
+}
